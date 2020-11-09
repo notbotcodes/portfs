@@ -13,9 +13,7 @@ const path= require('path')
 
 
 
-app.get("/",(req,res)=>{
-    res.send('elo from the express server');
-} );
+
 
 app.listen(port,()=>{
 
